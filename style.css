@@ -1,0 +1,73 @@
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px; transform:rotate(90deg)}
+    25%  {background-color:yellow; left:200px; top:0px;transform:rotate(0deg) }
+    50%  {background-color:blue; left:200px; top:200px;transform:rotate(250deg)}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  @keyframes spin 
+  {
+    0%   {background-color:red; left:0px; top:0px; color: blue;transform:rotate(0deg);}
+    25%  {background-color:yellow; left:200px; top:200px;color:chocolate;transform:rotate(90deg)}
+    50%  {background-color:blue; left:0px; top:200px; color: red;}
+    75%  {background-color:green; left:0px; top:200px;color: purple;transform:rotate(270deg)}
+    100% {background-color:red; left:50px; top:400px;transform: rotate(360deg);}
+  }
+  @keyframes flash
+  {
+    0%   {background-color:white}
+    25%  {background-color:greenyellow;}
+    50%  {background-color:orange; }
+    75%  {background-color:olive;}
+    100% {background-color:red;}
+  }
+  @keyframes lala
+  {
+    0%   {color:blue}
+    25%  { color:purple;}
+    50%  {color:black; }
+    75%  {color:red;}
+    100% {color:pink;}
+  }
+  @keyframes in
+  {
+    0%   {filter:invert(0)}
+    25%  {filter: (20%);}
+    50%  {filter: (50%);}
+    75%  {filter: (75%);}
+    100% {filter: (1);}
+  }
+  h1{
+    font-size:xx-large;
+    color: blue;
+    position: relative;
+    animation-name: spin;
+    animation-duration: 8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+  
+p{
+    font-weight: 700;
+    background-color: blueviolet;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+h2{
+    animation-name: lala;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+body 
+{
+    animation-name: flash;
+    animation-duration: 4s;
+    background-image:url("HBD.jpg");
+    animation-iteration-count: 2 ;
+}
+
