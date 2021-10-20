@@ -43,9 +43,9 @@
     color: blue;
     position: relative;
     animation-name: spin;
-    animation-duration: 8s;
+    animation-duration: 4s;
     animation-direction: alternate;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 2;
 }
   
 p{
@@ -65,9 +65,7 @@ h2{
 }
 body 
 {
-    animation-name: flash;
-    animation-duration: 4s;
-    background-image:url("HBD.jpg");
-    animation-iteration-count: 2 ;
+    background-image:url("/pics/HBD.png");
+    background-color: #cccccc;
 }
 
