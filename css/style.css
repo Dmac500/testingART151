@@ -1,18 +1,18 @@
 
 @keyframes example {
-    0%   {background-color:red; left:0px; top:0px; transform:rotate(90deg)}
-    25%  {background-color:yellow; left:200px; top:0px;transform:rotate(0deg) }
-    50%  {background-color:blue; left:200px; top:200px;transform:rotate(250deg)}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+    0%   {background-color:rgb(247, 238, 238); left:0px; top:0px; transform:rotate(90deg)}
+    25%  {background-color:rgb(26, 26, 25); left:200px; top:0px;transform:rotate(0deg) }
+    50%  {background-color:rgb(240, 240, 248); left:200px; top:200px;transform:rotate(250deg)}
+    75%  {background-color:rgb(18, 19, 18); left:0px; top:200px;}
+    100% {background-color:rgb(17, 17, 17); left:0px; top:0px;}
   }
   @keyframes spin 
   {
-    0%   {background-color:red; left:0px; top:0px; color: blue;transform:rotate(0deg);}
-    25%  {background-color:yellow; left:200px; top:200px;color:chocolate;transform:rotate(90deg)}
-    50%  {background-color:blue; left:0px; top:200px; color: red;}
-    75%  {background-color:green; left:0px; top:200px;color: purple;transform:rotate(270deg)}
-    100% {background-color:red; left:50px; top:400px;transform: rotate(360deg);}
+    0%   {background-color:rgb(19, 18, 18); left:0px; top:0px; color: blue;transform:rotate(0deg);}
+    25%  {background-color:rgb(255, 255, 255); left:200px; top:200px;color:chocolate;transform:rotate(90deg)}
+    50%  {background-color:rgb(7, 7, 7); left:0px; top:200px; color: red;}
+    75%  {background-color:rgb(15, 15, 15); left:0px; top:200px;color: purple;transform:rotate(270deg)}
+    100% {background-color:rgb(238, 236, 236); left:50px; top:400px;transform: rotate(360deg);}
   }
   @keyframes flash
   {
