@@ -1,3 +1,12 @@
+ @keyframes flash
+  {
+    0%   {background-color:white}
+    25%  {background-color:black}
+    50%  {background-color:white }
+    75%  {background-color:black}
+    100% {background-color:white}
+  }
+
 h1
 {
   text-align: center;
@@ -14,9 +23,6 @@ h2
 }
 body
 {
-   background-image: url("/pics/dwight.jpg" );
-  height: 1000px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
+   animation-name: flash;
+    animation-duration: 3s;
 }
