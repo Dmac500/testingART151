@@ -26,7 +26,7 @@ body
 {
  animation-name: flash;
   animation-duration: 3s;
-  background-image:url("/pics/planes.jpg");
+  background-image:url("../pics/planes.jpg");
    height: 1000px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
