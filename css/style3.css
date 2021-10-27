@@ -1,7 +1,7 @@
 
 body
 {
-  background-image: url("../pics/store.jpg" );
+  background-image: url("../pics/store2.jpg" );
   height: 1000px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -13,5 +13,7 @@ h1{
 h2
 {
   text-align: center;
-  padding-top: 500px;
+  margin-left: 1.5cm;
+  padding-top: 600px;
+  color: rgb(39, 56, 6) ;
 }

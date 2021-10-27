@@ -6,23 +6,41 @@
     75%  {background-color:black}
     100% {background-color:white}
   }
+   @keyframes letters
+  {
+    0%   {color:black}
+    25%  {color:yellow}
+    50%  {color:black }
+    75%  {color:yellow}
+    100% {color:black}
+  }
 
 h1
 {
+  animation-name: letters;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
   text-align: center;
   text-shadow: blue;
 }
 p
 {
+animation-name: letters;
+    animation-duration: 10s;
+     animation-iteration-count: infinite;
 text-align: center;
 text-shadow: blue;
 }
 h2
 {
+  animation-name: letters;
+  animation-duration: 10s;
   text-align: center;
+   animation-iteration-count: infinite;
 }
 body
 {
    animation-name: flash;
-    animation-duration: 3s;
+    animation-duration: 10s;
+     animation-iteration-count: infinite;
 }

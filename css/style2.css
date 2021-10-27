@@ -1,13 +1,32 @@
+@keyframes coloreffect
+{ 
+  0% {filter:invert(0%)} 
+  25% {filter:invert(25%)} 
+  50% {filter:invert(50%)} 
+  75% {filter:invert(75%)}
+  100% {filter:invert(100%)}
+}
+
 body 
 {
     background-color: Black;
 }
 h1{
   color:azure;
+  text-align: center;
 }
 h2{
   color:azure;
+  text-align: center;
 }
 p{
   color: white;
+  text-align: center;
+}
+img
+{
+  margin-left:17cm;
+  animation-name: coloreffect;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }

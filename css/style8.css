@@ -2,6 +2,7 @@ h1
 {
   text-align: center;
   text-shadow: blue;
+  color: yellow;
 }
 p
 {
@@ -14,10 +15,12 @@ h3{
 
   text-align: center;
    padding-top: 700px;
+   color:aliceblue;
 }
 h2
 {
   text-align: center;
+  color:yellow;
 }
 body
 {

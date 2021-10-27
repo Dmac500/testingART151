@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=Francois+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 @keyframes flash
 {
   0%   {background-color:white}
@@ -16,17 +17,35 @@ p
 {
 text-align: center;
 text-shadow: blue;
-background-color: red;
+color: orange;
 }
 h2
 {
 text-align: center;
 }
+.center
+{
+
+  margin-left: 17cm;
+  margin-right: auto;
+  margin-top: 1cm;
+  width: 50%;
+  
+
+}
+a
+{
+ 
+  font-family: 'Changa', sans-serif;
+  font-size: 150%;
+  color:grey;
+  background-color: whitesmoke;
+}
 body
 {
  animation-name: flash;
   animation-duration: 3s;
-  background-image:url("../pics/planes.jpg");
+  background-image:url("../pics/planes2.jpg");
    height: 1000px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */

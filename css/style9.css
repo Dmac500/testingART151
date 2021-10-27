@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=Contrail+One&family=Reenie+Beanie&display=swap');
 h1
 {
+  font-family: 'Contrail One', cursive;
   text-align: center;
   text-shadow: blue;
   color:red;
@@ -8,21 +10,24 @@ p
 {
 text-align: center;
 text-shadow: blue;
-color:purple;
+color:gold;
 }
 h2
 {
+  font-family: 'Contrail One', cursive;
   text-align: center;
-  color:red;
+  color: red;
   
 }
 h3{
+   font-family: 'Contrail One', cursive;
   text-align: center;
   color:red;
 }
 body
 {
-   background-image: url("../pics/post.jpg");
+  padding-top: 11cm;
+   background-image: url("../pics/post3.jpg");
   height: 1000px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */

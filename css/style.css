@@ -1,18 +1,18 @@
 
 @keyframes example {
-    0%   {background-color:rgb(247, 238, 238); left:0px; top:0px; transform:rotate(90deg)}
-    25%  {background-color:rgb(26, 26, 25); left:200px; top:0px;transform:rotate(0deg) }
-    50%  {background-color:rgb(240, 240, 248); left:200px; top:200px;transform:rotate(250deg)}
-    75%  {background-color:rgb(18, 19, 18); left:0px; top:200px;}
-    100% {background-color:rgb(17, 17, 17); left:0px; top:0px;}
+    0%   {background-color:rgb(247, 238, 238); left:0px; top:0px;color:black; transform:rotate(90deg)}
+    25%  {background-color:rgb(26, 26, 25); left:200px; top:0px;color:white;transform:rotate(0deg) }
+    50%  {background-color:rgb(240, 240, 248); left:200px; top:200px;color:black;transform:rotate(250deg)}
+    75%  {background-color:rgb(18, 19, 18); left:0px; top:200px;color:white}
+    100% {background-color:rgb(17, 17, 17); left:0px; top:0px;color:white}
   }
   @keyframes spin 
   {
-    0%   {background-color:rgb(19, 18, 18); left:0px; top:0px; color: blue;transform:rotate(0deg);}
-    25%  {background-color:rgb(255, 255, 255); left:200px; top:200px;color:chocolate;transform:rotate(90deg)}
-    50%  {background-color:rgb(7, 7, 7); left:0px; top:200px; color: red;}
-    75%  {background-color:rgb(15, 15, 15); left:0px; top:200px;color: purple;transform:rotate(270deg)}
-    100% {background-color:rgb(238, 236, 236); left:50px; top:400px;transform: rotate(360deg);}
+    0%   {background-color:rgb(19, 18, 18); left:0px; top:0px; color: white;transform:rotate(0deg);}
+    25%  {background-color:rgb(255, 255, 255); left:200px; top:200px;color:black;transform:rotate(90deg)}
+    50%  {background-color:rgb(7, 7, 7); left:0px; top:200px; color: white;}
+    75%  {background-color:rgb(15, 15, 15); left:0px; top:200px;color: white;transform:rotate(270deg)}
+    100% {background-color:rgb(238, 236, 236); left:50px; top:400px;color: black;transform: rotate(360deg);}
   }
   @keyframes flash
   {
@@ -38,34 +38,89 @@
     75%  {filter: (75%);}
     100% {filter: (1);}
   }
-  h1{
+  h2{
     font-size:xx-large;
-    color: blue;
+    color: black;
     position: relative;
     animation-name: spin;
     animation-duration: 4s;
     animation-direction: alternate;
     animation-iteration-count: 2;
+   
 }
   
-p{
+h3{
     font-weight: 700;
-    background-color: blueviolet;
+    background-color:white;
     position: relative;
     animation-name: example;
     animation-duration: 4s;
     animation-direction: alternate;
     animation-iteration-count: 2;
+    text-align: end;
 }
-h2{
-    animation-name: lala;
-    animation-duration: 1s;
-    animation-direction: alternate;
-    animation-iteration-count: 2;
-}
+
 body 
 {
     
     background-color: #cccccc;
 }
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	background-color: #FFF;
+}
+
+.text-box {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 8vw;
+	font-weight: 900;
+	background-color: #000;
+	color: #fff;
+	display: block;
+	padding: .5em;
+}
+
+h1:nth-child(2) {
+	position: absolute;
+	background-color: #fff;
+	color: #000;
+	clip-path: inset(-1% -1% 50% -1%);
+
+}
+
+p {
+	font-size: 2vw;
+	font-weight: 900;
+	margin-top: 1em;
+	text-align: center;
+	
+}
+
+
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
 
